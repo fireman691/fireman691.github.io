@@ -1,0 +1,35 @@
+$roboto: 'Roboto', sans-serif;
+$circe: 'Circe', sans-serif;
+
+$default-font: $roboto;
+
+$black: #000000;
+$white: #ffffff;
+
+$text: #1F263D;
+
+$accent: #44c8f5;
+
+$font-size: 16px;
+$line-height: 20/14;
+
+$src: '../';
+// $src: '/secret/';
+
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 40px;
+$grid-columns: 12;
+// $grid-breakpoints: (xs: 0, sm: 576px, md: 780px, lg: 992px, xl: 1170px);
+// $container-max-widths: (sm: 540px, md: 750px, lg: 960px, xl: 1170px);
+
+$gutter: $grid-gutter-width;
+
+$screen-xs:                  480px !default;
+$screen-sm:                  768px !default;
+$screen-md:                  992px !default;
+$screen-lg:                  1200px !default;
+$screen-xl:                  1500px !default;
+
+$min-width: 320px;
+$max-width: 1200px;

@@ -1,0 +1,98 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?lmsgw3') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?lmsgw3') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?lmsgw3##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pm-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pm-icon__skipass {
+  &:before {
+    content: $pm-icon__skipass; 
+  }
+}
+.pm-icon__bell {
+  &:before {
+    content: $pm-icon__bell; 
+  }
+}
+.pm-icon__bed {
+  &:before {
+    content: $pm-icon__bed; 
+  }
+}
+.pm-icon__runner {
+  &:before {
+    content: $pm-icon__runner; 
+  }
+}
+.pm-icon__chaise {
+  &:before {
+    content: $pm-icon__chaise; 
+  }
+}
+.pm-icon__leaf {
+  &:before {
+    content: $pm-icon__leaf; 
+  }
+}
+.pm-icon__piggybank {
+  &:before {
+    content: $pm-icon__piggybank; 
+  }
+}
+.pm-icon__cutlery {
+  &:before {
+    content: $pm-icon__cutlery; 
+  }
+}
+.pm-icon__baby {
+  &:before {
+    content: $pm-icon__baby; 
+  }
+}
+.pm-icon__cards {
+  &:before {
+    content: $pm-icon__cards; 
+  }
+}
+.pm-icon__discount {
+  &:before {
+    content: $pm-icon__discount; 
+  }
+}
+.pm-icon__clock {
+  &:before {
+    content: $pm-icon__clock; 
+  }
+}
+.pm-icon__wifi {
+  &:before {
+    content: $pm-icon__wifi; 
+  }
+}
+.pm-icon__lift {
+  &:before {
+    content: $pm-icon__lift; 
+  }
+}
+
