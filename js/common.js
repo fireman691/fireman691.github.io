@@ -41,17 +41,20 @@ jQuery(document).ready(function($) {
 		swipeToSlide: true,
 		adaptiveHeight: true,
 		slidesToShow: 3,
+		slidesToScroll: 3,
 		responsive: [
 			{
 				breakpoint: breakpoints.md,
 				settings: {
-					slidesToShow: 2
+					slidesToShow: 2,
+					slidesToScroll: 2,
 				}
 			},
 			{
 				breakpoint: breakpoints.sm,
 				settings: {
-					slidesToShow: 1
+					slidesToShow: 1,
+					slidesToScroll: 1,
 				}
 			},
 		]
