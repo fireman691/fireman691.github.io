@@ -11,16 +11,24 @@
 .pm-hotels__content {}
 .pm-hotels__list {}
 .pm-hotels__row {
-	margin: 0 -20px;
 	font-size: 0;
 	text-align: center;
+	margin: 0 -10px;
+
+	@include respond-above(xs) {
+		margin: 0 -20px;
+	}
 }
 .pm-hotels__col {
 	text-align: left;
 	display: inline-block;
 	vertical-align: top;
-	padding: 0 20px;
 	width: 100%;
+	padding: 0 10px;
+
+	@include respond-above(xs) {
+		padding: 0 20px;
+	}
 
 	@include respond-above(md) {
 		width: 50%;
