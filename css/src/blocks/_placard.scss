@@ -1,0 +1,92 @@
+.pm-placard {
+
+	@include respond-above(sm) {
+		margin-top: 40px;
+	}
+}
+.pm-placard__main {
+	position: relative;
+	padding: 132px 0 105px;
+
+	@include respond-above(sm) {
+		padding: 163px 0 92px;
+	}
+}
+
+.pm-placard__substrate {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pm-placard__bg {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	// background-position: 50% 50%;
+	background-position: 50% 81%;
+	background-repeat: no-repeat;
+	position: relative;
+
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba($rhino, 1);
+		opacity: 0.8;
+		display: none;
+	}
+}
+.pm-placard__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+}
+
+.pm-placard__video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+.pm-placard__content {
+	position: relative;
+	z-index: 2;
+}
+
+.pm-placard__top {
+}
+.pm-placard__bottom {
+	padding: 81px 0 0;
+
+	@include respond-above(sm) {
+		padding: 69px 0 0;
+	}
+}
+
+.pm-placard__headings {
+	margin: 0 auto;
+	max-width: 516px;
+
+	@include respond-above(sm) {
+		max-width: 570px;
+	}
+}
+
+.pm-placard__skipass {
+	margin: 0 auto;
+	max-width: 436px;
+}

@@ -1,0 +1,142 @@
+.pm-offer {
+	background: $white;
+	box-shadow: 0 25px 57px 0 rgba($black, 0.13);
+}
+.pm-offer__main {}
+.pm-offer__col {
+
+	@include respond-above(xs) {
+		float: left;
+		width: 50%;
+	}
+}
+.pm-offer__col--left {}
+.pm-offer__col--right {}
+
+.pm-offer__figure {}
+.pm-offer__picture {
+	display: block;
+	min-height: 286px;
+	border-bottom: 9px solid $black;
+	position: relative;
+
+	@include respond-above(sm) {
+		min-height: 280px;
+	}
+}
+.pm-offer__pic {
+	display: block;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+.pm-offer__img {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.pm-offer__content {
+	padding: 21px 12px 20px 30px;
+
+	@include respond-above(xs) {
+		min-height: 230px;
+	}
+	@include respond-above(sm) {
+		padding-top: 20px;
+		min-height: 226px;
+	}
+}
+.pm-offer__positions {
+	padding-right: 10px;
+}
+.pm-offer__rating {
+	width: 100%;
+	float: left;
+	padding-right: 50px;
+}
+.pm-offer__num {
+	text-align: right;
+	color: $rhino;
+	opacity: 0.45;
+	font-size: 18px;
+	line-height: 1;
+
+	float: left;
+	width: 50px;
+	margin-left: -50px;
+}
+.pm-offer__text {
+	padding-bottom: 15px;
+
+	@include respond-above(xs) {
+		min-height: 130px;
+		padding-bottom: 0;
+	}
+}
+.pm-offer__title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 1.15;
+	color: $rhino;
+	padding-top: 18px;
+
+	@include respond-above(sm) {
+		line-height: 1.1;
+		padding-top: 19px;
+	}
+
+	a {
+		text-decoration: none;
+		color: $rhino;
+
+		&:hover,
+		&:focus {
+			text-decoration: none;
+			color: $rhino;
+		}
+	}
+}
+.pm-offer__price {
+	font-size: 18px;
+	line-height: 1;
+	font-weight: bold;
+	padding-top: 10px;
+
+	@include respond-above(sm) {
+		padding-top: 9px;
+	}
+}
+.pm-offer__facilities {
+	padding-top: 6px;
+}
+.pm-offer__nav {}
+.pm-offer__button {
+	display: inline-block;
+	border: none;
+	width: 100%;
+	text-align: center;
+	background: #44c8f5;
+	color: $white;
+	padding: 19px 20px 20px 19px;
+	font-size: 17px;
+	line-height: 1;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+
+	@include respond-above(sm) {
+		padding-bottom: 18px;
+	}
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: $white;
+		background: #37bbff;
+	}
+}
