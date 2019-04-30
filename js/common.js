@@ -36,8 +36,8 @@ jQuery(document).ready(function($) {
 
 	var sliderParameters = {
 		// infinite: false,
-		prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><i class="pm-icon pm-icon__chevron-left"></i></button>',
-		nextArrow: '<button class="slick-next" aria-label="Next" type="button"><i class="pm-icon pm-icon__chevron-right"></i></button>',
+		prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><i class="pm-icon pm-icon--chevron-left"></i></button>',
+		nextArrow: '<button class="slick-next" aria-label="Next" type="button"><i class="pm-icon pm-icon--chevron-right"></i></button>',
 		swipeToSlide: true,
 		adaptiveHeight: true,
 		slidesToShow: 3,

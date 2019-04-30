@@ -1,28 +1,28 @@
 $icomoon-font-family: "icomoon" !default;
 
-$pm-icon__chevron-left: "\e914";
-$pm-icon__chevron-right: "\e915";
-$pm-icon__star: "\e916";
-$pm-icon__internet: "\e90e";
-$pm-icon__cocktail: "\e90f";
-$pm-icon__tram: "\e910";
-$pm-icon__dumbbell: "\e911";
-$pm-icon__glass: "\e912";
-$pm-icon__bunk: "\e913";
-$pm-icon__skipass: "\e900";
-$pm-icon__bell: "\e901";
-$pm-icon__bed: "\e902";
-$pm-icon__runner: "\e903";
-$pm-icon__chaise: "\e904";
-$pm-icon__leaf: "\e905";
-$pm-icon__piggybank: "\e906";
-$pm-icon__cutlery: "\e907";
-$pm-icon__baby: "\e908";
-$pm-icon__cards: "\e909";
-$pm-icon__discount: "\e90a";
-$pm-icon__clock: "\e90b";
-$pm-icon__wifi: "\e90c";
-$pm-icon__lift: "\e90d";
+$pm-icon--chevron-left: "\e914";
+$pm-icon--chevron-right: "\e915";
+$pm-icon--star: "\e916";
+$pm-icon--internet: "\e90e";
+$pm-icon--cocktail: "\e90f";
+$pm-icon--tram: "\e910";
+$pm-icon--dumbbell: "\e911";
+$pm-icon--glass: "\e912";
+$pm-icon--bunk: "\e913";
+$pm-icon--skipass: "\e900";
+$pm-icon--bell: "\e901";
+$pm-icon--bed: "\e902";
+$pm-icon--runner: "\e903";
+$pm-icon--chaise: "\e904";
+$pm-icon--leaf: "\e905";
+$pm-icon--piggybank: "\e906";
+$pm-icon--cutlery: "\e907";
+$pm-icon--baby: "\e908";
+$pm-icon--cards: "\e909";
+$pm-icon--discount: "\e90a";
+$pm-icon--clock: "\e90b";
+$pm-icon--wifi: "\e90c";
+$pm-icon--lift: "\e90d";
 
 .pm-icon {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -39,119 +39,119 @@ $pm-icon__lift: "\e90d";
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pm-icon__chevron-left {
+.pm-icon--chevron-left {
   &:before {
-    content: $pm-icon__chevron-left; 
+    content: $pm-icon--chevron-left; 
   }
 }
-.pm-icon__chevron-right {
+.pm-icon--chevron-right {
   &:before {
-    content: $pm-icon__chevron-right; 
+    content: $pm-icon--chevron-right; 
   }
 }
-.pm-icon__star {
+.pm-icon--star {
   &:before {
-    content: $pm-icon__star; 
+    content: $pm-icon--star; 
   }
 }
-.pm-icon__internet {
+.pm-icon--internet {
   &:before {
-    content: $pm-icon__internet; 
+    content: $pm-icon--internet; 
   }
 }
-.pm-icon__cocktail {
+.pm-icon--cocktail {
   &:before {
-    content: $pm-icon__cocktail; 
+    content: $pm-icon--cocktail; 
   }
 }
-.pm-icon__tram {
+.pm-icon--tram {
   &:before {
-    content: $pm-icon__tram; 
+    content: $pm-icon--tram; 
   }
 }
-.pm-icon__dumbbell {
+.pm-icon--dumbbell {
   &:before {
-    content: $pm-icon__dumbbell; 
+    content: $pm-icon--dumbbell; 
   }
 }
-.pm-icon__glass {
+.pm-icon--glass {
   &:before {
-    content: $pm-icon__glass; 
+    content: $pm-icon--glass; 
   }
 }
-.pm-icon__bunk {
+.pm-icon--bunk {
   &:before {
-    content: $pm-icon__bunk; 
+    content: $pm-icon--bunk; 
   }
 }
-.pm-icon__skipass {
+.pm-icon--skipass {
   &:before {
-    content: $pm-icon__skipass; 
+    content: $pm-icon--skipass; 
   }
 }
-.pm-icon__bell {
+.pm-icon--bell {
   &:before {
-    content: $pm-icon__bell; 
+    content: $pm-icon--bell; 
   }
 }
-.pm-icon__bed {
+.pm-icon--bed {
   &:before {
-    content: $pm-icon__bed; 
+    content: $pm-icon--bed; 
   }
 }
-.pm-icon__runner {
+.pm-icon--runner {
   &:before {
-    content: $pm-icon__runner; 
+    content: $pm-icon--runner; 
   }
 }
-.pm-icon__chaise {
+.pm-icon--chaise {
   &:before {
-    content: $pm-icon__chaise; 
+    content: $pm-icon--chaise; 
   }
 }
-.pm-icon__leaf {
+.pm-icon--leaf {
   &:before {
-    content: $pm-icon__leaf; 
+    content: $pm-icon--leaf; 
   }
 }
-.pm-icon__piggybank {
+.pm-icon--piggybank {
   &:before {
-    content: $pm-icon__piggybank; 
+    content: $pm-icon--piggybank; 
   }
 }
-.pm-icon__cutlery {
+.pm-icon--cutlery {
   &:before {
-    content: $pm-icon__cutlery; 
+    content: $pm-icon--cutlery; 
   }
 }
-.pm-icon__baby {
+.pm-icon--baby {
   &:before {
-    content: $pm-icon__baby; 
+    content: $pm-icon--baby; 
   }
 }
-.pm-icon__cards {
+.pm-icon--cards {
   &:before {
-    content: $pm-icon__cards; 
+    content: $pm-icon--cards; 
   }
 }
-.pm-icon__discount {
+.pm-icon--discount {
   &:before {
-    content: $pm-icon__discount; 
+    content: $pm-icon--discount; 
   }
 }
-.pm-icon__clock {
+.pm-icon--clock {
   &:before {
-    content: $pm-icon__clock; 
+    content: $pm-icon--clock; 
   }
 }
-.pm-icon__wifi {
+.pm-icon--wifi {
   &:before {
-    content: $pm-icon__wifi; 
+    content: $pm-icon--wifi; 
   }
 }
-.pm-icon__lift {
+.pm-icon--lift {
   &:before {
-    content: $pm-icon__lift; 
+    content: $pm-icon--lift; 
   }
 }
 
