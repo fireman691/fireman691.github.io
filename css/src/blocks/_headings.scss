@@ -1,5 +1,5 @@
 .pm-headings {
-	background: rgba($rhino, 0.8);
+	background: rgba($black, 0.8);
 	color: $white;
 	line-height: 1.05;
 	font-weight: bold;
@@ -11,6 +11,12 @@
 		padding-top: 30px;
 		padding-bottom: 24px;
 	}
+}
+.pm-headings--winter {
+	background: rgba($rhino, 0.8);
+}
+.pm-headings--summer {
+	background: rgba($apple, 0.8);
 }
 .pm-headings__period {
 	font-family: $roboto;
