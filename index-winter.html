@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OUT</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#00a0dc">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/dist/fonts.min.css">
+	<link rel="stylesheet" href="css/dist/style.min.css">
+	
+	<!-- для визуализации хедера и футера, можно удалить -->
+	<style>
+		.header {
+			height: 80px;
+			background: #ff0
+		}
+
+		@media (min-width: 768px) {
+			.header {
+				height:180px
+			}
+		}
+
+		.footer {
+			height: 640px;
+			background: #00f
+		}
+
+		@media (min-width: 768px) {
+			.footer {
+				height:789px
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="pm-wrapper">
+			<header class="header"></header>
+
+			<div class="pm-placard">
+				<div class="pm-wrap">
+					<div class="pm-placard__main">
+						<div class="pm-placard__substrate">
+							<div class="pm-placard__bg" style="background-image: url(/img/bg.jpg);">
+								<img src="/img/bg.jpg" alt="Header background" class="pm-placard__img">
+							</div>
+							<div class="pm-placard__video" data-vide-bg="/video/winter" data-vide-options="posterType: jpg, loop: true, muted: true, position: 75% 100%"></div>
+						</div>
+						<div class="pm-placard__content">
+							<div class="pm-center">
+								<div class="pm-placard__top">
+									<div class="pm-placard__headings">
+										<div class="pm-headings">
+											<div class="pm-headings__period">14.04 – 12.05</div>
+											<div class="pm-headings__title">Катай и загорай</div>
+										</div>
+									</div>
+								</div>
+								<div class="pm-placard__bottom">
+									<div class="pm-placard__skipass">
+										<div class="pm-skipass pm-skipass--winter">
+											<div class="pm-skipass__main">
+												<div class="pm-skipass__row pm-clearfix">
+													<div class="pm-skipass__col pm-skipass__col--left">
+														<div class="pm-skipass__free">
+															<div class="pm-skipass__picture">
+																<i class="pm-icon pm-icon__skipass pm-skipass__icon"></i>
+															</div>
+															<div class="pm-skipass__title">
+																<span class="pm-text-nowrap">Ски-пассы</span> бесплатно!
+															</div>
+														</div>
+													</div>
+													<div class="pm-skipass__col pm-skipass__col--right">
+														<div class="pm-skipass__subtitle"><span class="pm-text-nowrap">При бронировании</span> <span class="pm-text-nowrap">на нашем сайте</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pm-includes">
+				<div class="pm-wrap">
+					<div class="pm-center">
+						<div class="pm-includes__main">
+							<div class="pm-includes__header">
+								<div class="pm-includes__title">Что входит в предложение? </div>
+								<div class="pm-includes__descr"><span class="pm-text-nowrap">Мы страемся дать чувство свободы</span><br><span class="pm-text-nowrap">каждому гостю нашего отеля</span></div>
+							</div>
+							<div class="pm-includes__content">
+								<div class="pm-slider js-slider">
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__wifi pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Вай-фай</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__bed pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Проживание</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__runner pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Активности</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__lift pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Подъем на канатной дороге</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__discount pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Скидки</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__cutlery pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Питание</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__baby pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Бесплатное проживание детей</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__clock pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Поздний заезд/выезд</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__chaise pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Трансфер на пляж</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__cards pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Билеты в аквапарк</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__leaf pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Спа в отеле</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__skipass pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Ски-пассы</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__piggybank pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Спец. цена на прокат</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+									<div class="pm-slider__item">
+										<div class="pm-service">
+											<div class="pm-service__main">
+												<div class="pm-service__picture">
+													<div class="pm-service__pictable">
+														<div class="pm-service__pictc">
+															<div class="pm-service__pic">
+																<i class="pm-icon pm-icon__bell pm-service__icon pm-service__icon--winter"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pm-service__title">Услуга</div>
+												<div class="pm-service__descr">Проживание в шикарном номере с балдахином и плазменным телевизоcopy</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pm-includes__footer">
+								<a href="javascript:void(0);" class="pm-includes__btn pm-includes__btn--winter js-show-all-services" data-text="Спрятать опции">Показать все 12 опций</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pm-hotels">
+				<div class="pm-wrap">
+					<div class="pm-center">
+						<div class="pm-hotels__main">
+							<div class="pm-hotels__content">
+								<div class="pm-hotels__list">
+									<div class="pm-hotels__row">
+										<div class="pm-hotels__col">
+											<div class="pm-hotels__item">
+												<div class="pm-offer">
+													<div class="pm-offer__main pm-clearfix">
+														<div class="pm-offer__col pm-offer__col--left">
+															<div class="pm-offer__figure">
+																<a href="javascript:void(0);" class="pm-offer__picture">
+																	<span class="pm-offer__pic" style="background-image: url(/img/hotel.png);">
+																		<img src="/img/hotel.png" alt="hotel" class="pm-offer__img">
+																	</span>
+																</a>
+															</div>
+														</div>
+														<div class="pm-offer__col pm-offer__col--right">
+															<div class="pm-offer__content">
+																<div class="pm-offer__positions pm-clearfix">
+																	<div class="pm-offer__rating">
+																		<div class="pm-rating">
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="pm-offer__num">960</div>
+																</div>
+																<div class="pm-offer__text">
+																	<div class="pm-offer__title">
+																		<a href="javascript:void(0);">Горки отель с очень длинным названием</a>
+																	</div>
+																	<div class="pm-offer__price">
+																		от 4000 ₽
+																	</div>
+																</div>
+																<div class="pm-offer__facilities">
+																	<div class="pm-facilities">
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__bunk pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__glass pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__dumbbell pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__tram pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__cocktail pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__internet pm-facilities__icon"></i>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="pm-offer__nav">
+																<a href="javascript:void(0);" class="pm-offer__button pm-offer__button--winter">Забронировать</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="pm-hotels__col">
+											<div class="pm-hotels__item">
+												<div class="pm-offer">
+													<div class="pm-offer__main pm-clearfix">
+														<div class="pm-offer__col pm-offer__col--left">
+															<div class="pm-offer__figure">
+																<a href="javascript:void(0);" class="pm-offer__picture">
+																	<span class="pm-offer__pic" style="background-image: url(/img/hotel.png);">
+																		<img src="/img/hotel.png" alt="hotel" class="pm-offer__img">
+																	</span>
+																</a>
+															</div>
+														</div>
+														<div class="pm-offer__col pm-offer__col--right">
+															<div class="pm-offer__content">
+																<div class="pm-offer__positions pm-clearfix">
+																	<div class="pm-offer__rating">
+																		<div class="pm-rating">
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="pm-offer__num">960</div>
+																</div>
+																<div class="pm-offer__text">
+																	<div class="pm-offer__title">
+																		<a href="javascript:void(0);">Горки отель с очень длинным названием</a>
+																	</div>
+																	<div class="pm-offer__price">
+																		от 4000 ₽
+																	</div>
+																</div>
+																<div class="pm-offer__facilities">
+																	<div class="pm-facilities">
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__bunk pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__glass pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__dumbbell pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__tram pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__cocktail pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__internet pm-facilities__icon"></i>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="pm-offer__nav">
+																<a href="javascript:void(0);" class="pm-offer__button pm-offer__button--winter">Забронировать</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="pm-hotels__col">
+											<div class="pm-hotels__item">
+												<div class="pm-offer">
+													<div class="pm-offer__main pm-clearfix">
+														<div class="pm-offer__col pm-offer__col--left">
+															<div class="pm-offer__figure">
+																<a href="javascript:void(0);" class="pm-offer__picture">
+																	<span class="pm-offer__pic" style="background-image: url(/img/hotel.png);">
+																		<img src="/img/hotel.png" alt="hotel" class="pm-offer__img">
+																	</span>
+																</a>
+															</div>
+														</div>
+														<div class="pm-offer__col pm-offer__col--right">
+															<div class="pm-offer__content">
+																<div class="pm-offer__positions pm-clearfix">
+																	<div class="pm-offer__rating">
+																		<div class="pm-rating">
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="pm-offer__num">960</div>
+																</div>
+																<div class="pm-offer__text">
+																	<div class="pm-offer__title">
+																		<a href="javascript:void(0);">Горки отель с очень длинным названием</a>
+																	</div>
+																	<div class="pm-offer__price">
+																		от 4000 ₽
+																	</div>
+																</div>
+																<div class="pm-offer__facilities">
+																	<div class="pm-facilities">
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__bunk pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__glass pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__dumbbell pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__tram pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__cocktail pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__internet pm-facilities__icon"></i>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="pm-offer__nav">
+																<a href="javascript:void(0);" class="pm-offer__button pm-offer__button--winter">Забронировать</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="pm-hotels__col">
+											<div class="pm-hotels__item">
+												<div class="pm-offer">
+													<div class="pm-offer__main pm-clearfix">
+														<div class="pm-offer__col pm-offer__col--left">
+															<div class="pm-offer__figure">
+																<a href="javascript:void(0);" class="pm-offer__picture">
+																	<span class="pm-offer__pic" style="background-image: url(/img/hotel.png);">
+																		<img src="/img/hotel.png" alt="hotel" class="pm-offer__img">
+																	</span>
+																</a>
+															</div>
+														</div>
+														<div class="pm-offer__col pm-offer__col--right">
+															<div class="pm-offer__content">
+																<div class="pm-offer__positions pm-clearfix">
+																	<div class="pm-offer__rating">
+																		<div class="pm-rating">
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																			<div class="pm-rating__item">
+																				<i class="pm-icon pm-icon__star pm-rating__icon"></i>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="pm-offer__num">960</div>
+																</div>
+																<div class="pm-offer__text">
+																	<div class="pm-offer__title">
+																		<a href="javascript:void(0);">Горки отель с очень длинным названием</a>
+																	</div>
+																	<div class="pm-offer__price">
+																		от 4000 ₽
+																	</div>
+																</div>
+																<div class="pm-offer__facilities">
+																	<div class="pm-facilities">
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__bunk pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__glass pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__dumbbell pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__tram pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__cocktail pm-facilities__icon"></i>
+																		</div>
+																		<div class="pm-facilities__item">
+																			<i class="pm-icon pm-icon__internet pm-facilities__icon"></i>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="pm-offer__nav">
+																<a href="javascript:void(0);" class="pm-offer__button pm-offer__button--winter">Забронировать</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pm-generalinfo">
+				<div class="pm-wrap">
+					<div class="pm-center">
+						<div class="pm-generalinfo__main pm-clearfix">
+							<div class="pm-generalinfo__header">
+								<div class="pm-generalinfo__title"><span>Общая</span> <span>информация</span></div>
+							</div>
+							<div class="pm-generalinfo__content">
+								<div class="pm-generalinfo__schedule">
+									<div class="pm-schedule">
+										<div class="pm-schedule__row pm-clearfix">
+											<div class="pm-schedule__col">
+												<div class="pm-schedule__item">
+													<div class="pm-period">
+														<div class="pm-period__title"><span>Период</span> <span>проживания</span></div>
+														<div class="pm-period__duration">14.04–12.05</div>
+													</div>
+												</div>
+											</div>
+											<div class="pm-schedule__col">
+												<div class="pm-schedule__item">
+													<div class="pm-period">
+														<div class="pm-period__title"><span>Период</span> <span>бронирования</span></div>
+														<div class="pm-period__duration">14.04–12.05</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="pm-generalinfo__cancellation">
+									<div class="pm-generalinfo__cancel">
+										<div class="pm-cancel">
+											<div class="pm-cancel__title">Условия отмены</div>
+											<div class="pm-cancel__descr">Бесплатная отмена брони за 48 часов до заезда, если отмена происходит позже, взимается штраф - стоимость <span class="pm-text-nowrap">1 суток</span> проживания</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer"></footer>
+		</div>
+	</div>
+
+	<!-- jQuery start -->
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+	<!-- <script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script> -->
+	<!-- <script src="/js/jquery.min.js"></script> -->
+	<!-- jQuery end -->
+
+	<!-- vide start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vide/0.5.1/jquery.vide.min.js" integrity="sha256-vjlQ2rQnkbtQ1goJyAhpuoyG99q3Tv8juRo2XQxxCDE=" crossorigin="anonymous"></script>
+	<!-- <script>window.jQuery.fn.vide || document.write('<script src="/js/jquery.vide.min.js"><\/script>')</script> -->
+	<!-- <script src="/js/jquery.vide.min.js"></script> -->
+	<!-- vide end -->
+
+	<!-- slick start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+	<!-- <script>window.jQuery.fn.slick || document.write('<script src="/js/slick.min.js"><\/script>')</script> -->
+	<!-- <script src="/js/slick.min.js"></script> -->
+	<!-- slick end -->
+
+	<script src="/js/common.js"></script>
+
+</body>
+</html>

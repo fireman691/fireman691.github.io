@@ -31,7 +31,6 @@
 }
 .pm-service__icon {
 	font-size: 47px;
-	color: $cerulean;
 
 	@include respond-above(sm) {
 		font-size: 51px;
@@ -58,6 +57,13 @@
 
 	}
 }
+.pm-service__icon--winter {
+	color: $cerulean;
+}
+.pm-service__icon--summer {
+	color: $prussian-blue;
+}
+
 .pm-service__title {
 	font-size: 30px;
 	// line-height: 1.35;

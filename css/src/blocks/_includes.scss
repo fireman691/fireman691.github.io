@@ -63,18 +63,37 @@
 	display: inline-block;
 	background: none;
 	padding: 16px 20px 14px 19px;
-	border: 2px solid #37bbff;
+	border: 2px solid $deep-cove;
 	font-size: 16px;
 	line-height: 1;
 	font-weight: bold;
 	text-decoration: none;
-	color: $cerulean;
+	color: $deep-cove;
 	transition: all 0.3s ease 0s;
 
 	&:hover,
 	&:focus {
 		text-decoration: none;
 		color: $white;
-		background: #37bbff;
+		background: $deep-cove;
+	}
+}
+
+.pm-includes__btn--winter {
+	border-color: $dodger-blue;
+	color: $cerulean;
+
+	&:hover,
+	&:focus {
+		background: $dodger-blue;
+	}
+}
+.pm-includes__btn--summer {
+	border-color: $apple;
+	color: $prussian-blue;
+
+	&:hover,
+	&:focus {
+		background: $apple;
 	}
 }

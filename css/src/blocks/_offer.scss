@@ -120,7 +120,7 @@
 	border: none;
 	width: 100%;
 	text-align: center;
-	background: #44c8f5;
+	background: $rhino;
 	color: $white;
 	padding: 19px 20px 20px 19px;
 	font-size: 17px;
@@ -137,6 +137,23 @@
 	&:focus {
 		text-decoration: none;
 		color: $white;
-		background: #37bbff;
+		background: darken($rhino, 10%);
+	}
+}
+
+.pm-offer__button--winter {
+	background: $picton-blue;
+
+	&:hover,
+	&:focus {
+		background: $dodger-blue;
+	}
+}
+.pm-offer__button--summer {
+	background: $emerald;
+
+	&:hover,
+	&:focus {
+		background: $apple;
 	}
 }

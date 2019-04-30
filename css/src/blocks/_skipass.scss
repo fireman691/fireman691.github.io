@@ -1,5 +1,5 @@
 .pm-skipass {
-	background: linear-gradient(-138deg, #00c0ff, #0075cf);
+	background: rgba($rhino, 0.8);
 	color: $white;
 
 	a {
@@ -12,6 +12,12 @@
 			color: $white;
 		}
 	}
+}
+.pm-skipass--winter {
+	background: linear-gradient(-138deg, #00c0ff, #0075cf);
+}
+.pm-skipass--summer {
+	background: linear-gradient(-138deg, $apple, $emerald);
 }
 .pm-skipass__main {
 	border: 5px solid $white;
