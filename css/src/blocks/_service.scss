@@ -12,6 +12,15 @@
 		width: 240px;
 	}
 }
+.pm-service__link {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
 .pm-service__picture {
 	font-size: 0;
 	line-height: 1;
@@ -28,6 +37,12 @@
 	height: 100%;
 }
 .pm-service__pic {
+}
+.pm-service__img {
+	max-width: 57px;
+	max-height: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .pm-service__icon {
 	font-size: 47px;

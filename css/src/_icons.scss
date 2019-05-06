@@ -2,6 +2,12 @@ $icomoon-font-family: "icomoon" !default;
 
 $pm-icon--chevron-left: "\e914";
 $pm-icon--chevron-right: "\e915";
+$pm-icon--wi-fi: "\e917";
+$pm-icon--spa: "\e918";
+$pm-icon--ski: "\e919";
+$pm-icon--pool-air: "\e91a";
+$pm-icon--pool: "\e91b";
+$pm-icon--animals: "\e91c";
 $pm-icon--star: "\e916";
 $pm-icon--internet: "\e90e";
 $pm-icon--cocktail: "\e90f";
@@ -47,6 +53,36 @@ $pm-icon--lift: "\e90d";
 .pm-icon--chevron-right {
   &:before {
     content: $pm-icon--chevron-right; 
+  }
+}
+.pm-icon--wi-fi {
+  &:before {
+    content: $pm-icon--wi-fi; 
+  }
+}
+.pm-icon--spa {
+  &:before {
+    content: $pm-icon--spa; 
+  }
+}
+.pm-icon--ski {
+  &:before {
+    content: $pm-icon--ski; 
+  }
+}
+.pm-icon--pool-air {
+  &:before {
+    content: $pm-icon--pool-air; 
+  }
+}
+.pm-icon--pool {
+  &:before {
+    content: $pm-icon--pool; 
+  }
+}
+.pm-icon--animals {
+  &:before {
+    content: $pm-icon--animals; 
   }
 }
 .pm-icon--star {
