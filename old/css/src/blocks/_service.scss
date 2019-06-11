@@ -1,0 +1,112 @@
+.pm-service {
+	text-align: center;
+	color: $text;
+}
+.pm-service__main {
+	// max-width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+
+	@include respond-above(sm) {
+		width: 240px;
+	}
+}
+.pm-service__link {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+.pm-service__picture {
+	font-size: 0;
+	line-height: 1;
+}
+.pm-service__pictable {
+	display: table;
+	width: 100%;
+	height: 60px;
+}
+.pm-service__pictc {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.pm-service__pic {
+}
+.pm-service__img {
+	max-width: 57px;
+	max-height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pm-service__icon {
+	font-size: 47px;
+
+	@include respond-above(sm) {
+		font-size: 51px;
+
+		&.pm-icon__bell {}
+		&.pm-icon__bed {
+			font-size: 51px;
+		}
+		&.pm-icon__runner {
+			font-size: 57px;
+		}
+		&.pm-icon__chaise {}
+		&.pm-icon__leaf {}
+		&.pm-icon__piggybank {}
+		&.pm-icon__cutlery {}
+		&.pm-icon__baby {}
+		&.pm-icon__cards {}
+		&.pm-icon__discount {}
+		&.pm-icon__clock {}
+		&.pm-icon__wifi {
+			font-size: 47px;
+		}
+		&.pm-icon__lift {}
+
+	}
+}
+.pm-service__icon--winter {
+	color: $cerulean;
+}
+.pm-service__icon--summer {
+	color: $prussian-blue;
+}
+
+.pm-service__title {
+	font-size: 30px;
+	// line-height: 1.35;
+	line-height: 1;
+	font-weight: bold;
+
+	padding-top: 9px;
+	padding-bottom: 5px;
+
+	@include respond-above(sm) {
+		font-size: 24px;
+	}
+}
+.pm-service__descr {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 300;
+
+	max-width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-top: 14px;
+
+	@include respond-above(sm) {
+		max-width: none;
+		font-size: 14px;
+		line-height: 18px;
+		padding-top: 4px;
+	}
+}

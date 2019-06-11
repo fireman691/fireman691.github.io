@@ -1,0 +1,17 @@
+.pm-cancel {
+	font-family: $roboto;
+	font-size: 24px;
+	line-height: 36px;
+	color: #344156;
+
+	@include respond-above(sm) {
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+.pm-cancel__title {
+	font-weight: bold;
+}
+.pm-cancel__descr {
+	font-weight: 300;
+}

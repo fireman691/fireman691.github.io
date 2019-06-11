@@ -26,60 +26,20 @@ var timeToWaitForLast = 100;
 
 jQuery(document).ready(function($) {
 
-	var breakpoints = {
-		xs: 640,
-		sm: 768,
-		md: 992,
-		lg: 1200,
-		xl: 1500
-	}
-
 	var sliderParameters = {
-		// infinite: false,
-		prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><i class="pm-icon pm-icon--chevron-left"></i></button>',
-		nextArrow: '<button class="slick-next" aria-label="Next" type="button"><i class="pm-icon pm-icon--chevron-right"></i></button>',
-		swipeToSlide: true,
-		adaptiveHeight: true,
-		slidesToShow: 3,
-		slidesToScroll: 3,
-		responsive: [
-			{
-				breakpoint: breakpoints.md,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
-				}
-			},
-			{
-				breakpoint: breakpoints.sm,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				}
-			},
-		]
+		dots: true,
+		infinite: false,
+		prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><i class="icon icon--chevron-left"></i></button>',
+		nextArrow: '<button class="slick-next" aria-label="Next" type="button"><i class="icon icon--chevron-right"></i></button>',
+		swipeToSlide: false,
+		adaptiveHeight: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		appendArrows: $('.js-slider-nav'),
+		appendDots: $('.js-slider-nav')
 	};
 
 	$('.js-slider').slick(sliderParameters);
-
-	var isSliderActive = true;
-
-
-	$(document).on('click', '.js-show-all-services', function(event) {
-		event.preventDefault();
-		if (isSliderActive) {
-			$('.js-slider').slick('unslick');
-		} else {
-			$('.js-slider').slick(sliderParameters);
-		}
-
-		var txt = $(this).html();
-		var dataText = $(this).attr('data-text');
-		$(this).attr('data-text', txt);
-		$(this).html(dataText);
-
-		isSliderActive = !isSliderActive;
-	});
 
 });
 

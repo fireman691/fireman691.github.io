@@ -1,0 +1,52 @@
+.pm-hotels {
+	position: relative;
+	z-index: 2;
+	padding-top: 25px;
+
+	@include respond-above(sm) {
+		padding-top: 45px;
+	}
+}
+.pm-hotels__main {}
+.pm-hotels__content {}
+.pm-hotels__list {}
+.pm-hotels__row {
+	font-size: 0;
+	text-align: center;
+	margin: 0 -10px;
+
+	@include respond-above(xs) {
+		margin: 0 -20px;
+	}
+}
+.pm-hotels__col {
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	padding: 0 10px;
+
+	@include respond-above(xs) {
+		padding: 0 20px;
+	}
+
+	@include respond-above(md) {
+		width: 50%;
+	}
+}
+.pm-hotels__item {
+	padding: 20px 0;
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+
+	@include respond-above(xs) {
+		margin-left: 0;
+		margin-right: 0;
+		max-width: none;
+	}
+
+	@include respond-above(md) {
+		padding: 15px 0;
+	}
+}

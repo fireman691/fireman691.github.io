@@ -1,0 +1,193 @@
+$icomoon-font-family: "icomoon" !default;
+
+$pm-icon--chevron-left: "\e914";
+$pm-icon--chevron-right: "\e915";
+$pm-icon--wi-fi: "\e917";
+$pm-icon--spa: "\e918";
+$pm-icon--ski: "\e919";
+$pm-icon--pool-air: "\e91a";
+$pm-icon--pool: "\e91b";
+$pm-icon--animals: "\e91c";
+$pm-icon--star: "\e916";
+$pm-icon--internet: "\e90e";
+$pm-icon--cocktail: "\e90f";
+$pm-icon--tram: "\e910";
+$pm-icon--dumbbell: "\e911";
+$pm-icon--glass: "\e912";
+$pm-icon--bunk: "\e913";
+$pm-icon--skipass: "\e900";
+$pm-icon--bell: "\e901";
+$pm-icon--bed: "\e902";
+$pm-icon--runner: "\e903";
+$pm-icon--chaise: "\e904";
+$pm-icon--leaf: "\e905";
+$pm-icon--piggybank: "\e906";
+$pm-icon--cutlery: "\e907";
+$pm-icon--baby: "\e908";
+$pm-icon--cards: "\e909";
+$pm-icon--discount: "\e90a";
+$pm-icon--clock: "\e90b";
+$pm-icon--wifi: "\e90c";
+$pm-icon--lift: "\e90d";
+
+.pm-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pm-icon--chevron-left {
+  &:before {
+    content: $pm-icon--chevron-left; 
+  }
+}
+.pm-icon--chevron-right {
+  &:before {
+    content: $pm-icon--chevron-right; 
+  }
+}
+.pm-icon--wi-fi {
+  &:before {
+    content: $pm-icon--wi-fi; 
+  }
+}
+.pm-icon--spa {
+  &:before {
+    content: $pm-icon--spa; 
+  }
+}
+.pm-icon--ski {
+  &:before {
+    content: $pm-icon--ski; 
+  }
+}
+.pm-icon--pool-air {
+  &:before {
+    content: $pm-icon--pool-air; 
+  }
+}
+.pm-icon--pool {
+  &:before {
+    content: $pm-icon--pool; 
+  }
+}
+.pm-icon--animals {
+  &:before {
+    content: $pm-icon--animals; 
+  }
+}
+.pm-icon--star {
+  &:before {
+    content: $pm-icon--star; 
+  }
+}
+.pm-icon--internet {
+  &:before {
+    content: $pm-icon--internet; 
+  }
+}
+.pm-icon--cocktail {
+  &:before {
+    content: $pm-icon--cocktail; 
+  }
+}
+.pm-icon--tram {
+  &:before {
+    content: $pm-icon--tram; 
+  }
+}
+.pm-icon--dumbbell {
+  &:before {
+    content: $pm-icon--dumbbell; 
+  }
+}
+.pm-icon--glass {
+  &:before {
+    content: $pm-icon--glass; 
+  }
+}
+.pm-icon--bunk {
+  &:before {
+    content: $pm-icon--bunk; 
+  }
+}
+.pm-icon--skipass {
+  &:before {
+    content: $pm-icon--skipass; 
+  }
+}
+.pm-icon--bell {
+  &:before {
+    content: $pm-icon--bell; 
+  }
+}
+.pm-icon--bed {
+  &:before {
+    content: $pm-icon--bed; 
+  }
+}
+.pm-icon--runner {
+  &:before {
+    content: $pm-icon--runner; 
+  }
+}
+.pm-icon--chaise {
+  &:before {
+    content: $pm-icon--chaise; 
+  }
+}
+.pm-icon--leaf {
+  &:before {
+    content: $pm-icon--leaf; 
+  }
+}
+.pm-icon--piggybank {
+  &:before {
+    content: $pm-icon--piggybank; 
+  }
+}
+.pm-icon--cutlery {
+  &:before {
+    content: $pm-icon--cutlery; 
+  }
+}
+.pm-icon--baby {
+  &:before {
+    content: $pm-icon--baby; 
+  }
+}
+.pm-icon--cards {
+  &:before {
+    content: $pm-icon--cards; 
+  }
+}
+.pm-icon--discount {
+  &:before {
+    content: $pm-icon--discount; 
+  }
+}
+.pm-icon--clock {
+  &:before {
+    content: $pm-icon--clock; 
+  }
+}
+.pm-icon--wifi {
+  &:before {
+    content: $pm-icon--wifi; 
+  }
+}
+.pm-icon--lift {
+  &:before {
+    content: $pm-icon--lift; 
+  }
+}
+

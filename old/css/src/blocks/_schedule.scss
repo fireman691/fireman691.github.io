@@ -1,0 +1,16 @@
+.pm-schedule {}
+.pm-schedule__row {}
+.pm-schedule__col {
+
+	@include respond-above(sm) {
+		float: left;
+		width: 245px;
+	}
+}
+.pm-schedule__item {
+	padding-bottom: 48px;
+
+	@include respond-above(sm) {
+		padding-bottom: 25px;
+	}
+}

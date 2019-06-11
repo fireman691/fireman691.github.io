@@ -1,0 +1,25 @@
+@import "mixins/media-queries";
+@import "vars";
+
+@import "normalize";
+
+// плагины
+@import "icons";
+@import "slick";
+
+@import "global";
+
+@import "blocks/placard";
+@import "blocks/headings";
+@import "blocks/skipass";
+@import "blocks/includes";
+@import "blocks/slider";
+@import "blocks/service";
+@import "blocks/hotels";
+@import "blocks/offer";
+@import "blocks/rating";
+@import "blocks/facilities";
+@import "blocks/generalinfo";
+@import "blocks/schedule";
+@import "blocks/period";
+@import "blocks/cancel";

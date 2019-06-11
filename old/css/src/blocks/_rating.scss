@@ -1,0 +1,16 @@
+.pm-rating {
+	font-size: 0;
+	line-height: 1;
+}
+.pm-rating__item {
+	display: inline-block;
+	margin-right: 5.5px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.pm-rating__icon {
+	font-size: 15px;
+	color: #ffba00;
+}

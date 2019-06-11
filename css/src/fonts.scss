@@ -4,10 +4,5 @@ $src: '../fonts';
 
 @include font-face2("icomoon", "#{$src}/icomoon/icomoon", normal, normal, ttf woff svg);
 
-@include font-face2("Roboto", "#{$src}/Roboto/Light/Roboto-Light", 300, normal, ttf woff woff2 eot svg);
-@include font-face2("Roboto", "#{$src}/Roboto/Bold/Roboto-Bold", bold, normal, ttf woff woff2 eot svg);
-
-@include font-face2("Circe", "#{$src}/Circe/Light/Circe-Light", 300, normal, ttf woff woff2 eot svg);
-@include font-face2("Circe", "#{$src}/Circe/Regular/Circe-Regular", normal, normal, ttf woff woff2 eot svg);
-@include font-face2("Circe", "#{$src}/Circe/Bold/Circe-Bold", bold, normal, ttf woff woff2 eot svg);
-@include font-face2("Circe", "#{$src}/Circe/ExtraBold/Circe-ExtraBold", 800, normal, ttf woff woff2 eot svg);
+@include font-face2("Gotham Pro", "#{$src}/GothamPro/Regular/GothamPro-Regular", normal, normal, ttf woff woff2 eot svg);
+@include font-face2("Gotham Pro", "#{$src}/GothamPro/Black/GothamPro-Black", 900, normal, ttf woff woff2 eot svg);

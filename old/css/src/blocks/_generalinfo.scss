@@ -1,0 +1,68 @@
+.pm-generalinfo {
+	padding-top: 55px;
+	padding-bottom: 85px;
+
+	@include respond-above(sm) {
+		padding-top: 68px;
+		padding-bottom: 101px;
+	}
+}
+.pm-generalinfo__main {}
+.pm-generalinfo__header {
+
+	@include respond-above(sm) {
+		float: left;
+		width: 33.33333%;
+		padding-top: 1px;
+	}
+}
+.pm-generalinfo__title {
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: $text;
+
+	@include respond-above(sm) {
+		text-align: left;
+		text-transform: capitalize;
+	}
+
+	span {
+		@include respond-above(sm) {
+			display: block;
+		}
+	}
+}
+.pm-generalinfo__content {
+
+	@include respond-above(sm) {
+		float: left;
+		width: 66.66667%;
+		padding-left: 12px;
+	}
+}
+.pm-generalinfo__schedule {
+	text-align: center;
+	padding-top: 72px;
+
+	@include respond-above(sm) {
+		text-align: left;
+		padding-top: 0;
+	}
+}
+.pm-generalinfo__cancellation {
+	padding: 12px 57px 0 73px;
+
+	@include respond-above(sm) {
+		padding: 18px 0px 0 1px;
+	}
+}
+.pm-generalinfo__cancel {
+	border-top: 1px solid $black;
+	padding: 41px 0 0;
+
+	@include respond-above(sm) {
+		padding: 28px 0 0 0;
+	}
+}
